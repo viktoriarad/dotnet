@@ -20,13 +20,34 @@ namespace lab1.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.ShowCurrentData = DateTime.Now;
+
             return View();
         }
+     
+       
 
         public IActionResult Privacy()
         {
             return View();
         }
+
+        public IActionResult Login()
+        {
+            return RedirectToAction("Redirect");
+        }
+
+        public IActionResult Redirect()
+        {
+            return View();
+        }
+        public IActionResult GetJson()
+        {
+            return Json(new { foo = "bar", baz = "Blech" });
+        }
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
