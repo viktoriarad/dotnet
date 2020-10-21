@@ -69,3 +69,20 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.product-list__item {
+    list-style: none;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.product-list__item-name {
+    font-weight: bold;
+}
+
+.product-list__item-description {
+}
+
+.product-list__item-price {
+    color: #ff0000;
+}

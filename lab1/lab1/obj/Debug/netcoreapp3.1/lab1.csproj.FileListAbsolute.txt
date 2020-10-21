@@ -36,4 +36,4 @@ C:\Users\Viktoria\dotnet\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.pdb
 C:\Users\Viktoria\dotnet\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.genruntimeconfig.cache
 C:\Users\Viktoria\dotnet\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.csproj.CopyComplete
 C:\Users\Viktoria\dotnet\lab1\lab1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Redirect.cshtml.g.cs
-C:\Users\Viktoria\dotnet\lab1\lab1\obj\Debug\netcoreapp3.1\Razor\Views\Test\Index.cshtml.g.cs
+C:\Users\Viktoria\dotnet\lab1\lab1\obj\Debug\netcoreapp3.1\Razor\Views\Product\GetList.cshtml.g.cs
