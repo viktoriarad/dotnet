@@ -15,7 +15,7 @@ namespace StoreProject.Models
             this.ctx = ctx;
         }
 
-        public IEnumerable<ProductModel> GetItems() => ctx.Products;
+        public IQueryable<ProductModel> Products => ctx.Products;
 
     }
 }

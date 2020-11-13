@@ -19,7 +19,14 @@ namespace lab1.Controllers
 
         public IActionResult GetList()
         {
-            return View(repository.GetItems());
+            return View(repository.Products);
+        }
+
+        public ViewResult List(string category) => View(repository.Products.Where(p => p.Category == category));
+
+        public IActionResult Index()
+        {
+            return View();
         }
 
     }

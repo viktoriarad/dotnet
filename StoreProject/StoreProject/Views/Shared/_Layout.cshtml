@@ -11,6 +11,8 @@
 </head>
 <body>
     <header>
+        @await Component.InvokeAsync("NavigationMenu")
+
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"

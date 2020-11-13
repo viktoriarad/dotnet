@@ -49,10 +49,21 @@ namespace StoreProject
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.UseEndpoints(routes => routes.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Product}/{action=GetList}/{id?}")
- );
+            app.UseEndpoints(routes =>
+            {
+                routes.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Product}/{action=GetList}/{id?}");
+
+                routes.MapControllerRoute(
+                    name: null,
+                    pattern: "Product/{category}",
+                    defaults: new
+                    {
+                        controller = "Product",
+                        action = "List",
+                    });
+            });
         }
     }
 }

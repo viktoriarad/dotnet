@@ -1,8 +1,6 @@
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csprojAssemblyReference.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.AssemblyInfoInputs.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.AssemblyInfo.cs
-C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csproj.CoreCompileInputs.cache
-C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.RazorAssemblyInfo.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.RazorAssemblyInfo.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.TagHelpers.input.cache
@@ -74,3 +72,8 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Store
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\staticwebassets\StoreProject.StaticWebAssets.Manifest.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\staticwebassets\StoreProject.StaticWebAssets.xml
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.genruntimeconfig.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs

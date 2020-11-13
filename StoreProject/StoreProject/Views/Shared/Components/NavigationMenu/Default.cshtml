@@ -1,0 +1,23 @@
+﻿@model IEnumerable<string>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @foreach (string category in Model)
+        {
+            <a class="btn btn-block"
+               asp-action="List"
+               asp-controller="Product"
+               asp-route-category="@category">
+                @category
+            </a>
+        }
+
+    </div>
+</body>
+</html>
