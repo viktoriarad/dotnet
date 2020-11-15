@@ -86,3 +86,25 @@ body {
 .product-list__item-price {
     color: #ff0000;
 }
+
+.categories-block > * {
+    display: inline-block;
+}
+
+.categories-block a {
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.categories-block a:hover {
+    text-decoration: none;
+}
+
+.categories-block a::after {
+    content: "/";
+}
+
+.categories-block > a:last-child::after {
+    content: "";
+}

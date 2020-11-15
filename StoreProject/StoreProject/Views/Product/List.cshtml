@@ -2,8 +2,8 @@
     ViewData["Title"] = "Product List";
 }
 
+@await Component.InvokeAsync("NavigationMenu")
 <div class="text-center">
-    <h1>Product List</h1>
     <ul class="product-list">
         @foreach (var product in @Model)
         {

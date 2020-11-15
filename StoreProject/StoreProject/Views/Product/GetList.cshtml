@@ -3,7 +3,8 @@
 }
 
 <div class="text-center">
-    <h1>Product List</h1>
+    @await Component.InvokeAsync("NavigationMenu")
+    <h1>All products</h1>
     <ul class="product-list">
         @foreach (var product in @Model)
         {
