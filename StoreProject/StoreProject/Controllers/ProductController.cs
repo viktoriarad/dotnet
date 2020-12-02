@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using lab1.Models;
 using Microsoft.AspNetCore.Mvc;
 using StoreProject.Models;
 
-namespace lab1.Controllers
+namespace StoreProject.Controllers
 {
     public class ProductController : Controller
     {

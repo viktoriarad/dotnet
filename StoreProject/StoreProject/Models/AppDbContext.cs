@@ -1,5 +1,5 @@
-﻿using lab1.Controllers;
-using lab1.Models;
+﻿using StoreProject.Controllers;
+using StoreProject.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 

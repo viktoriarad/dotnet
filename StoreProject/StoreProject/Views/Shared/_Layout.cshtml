@@ -25,20 +25,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="GetList">All Products</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="">Admin</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    @*<div class="navbar navbar-inverse bg-inverse"
-             role="navigation">
-            <a class="navbar-brand" href="#">Sklep sportowy</a>
-        </div>*@
-    @*<div class="row m-1 p-1 ">
-            <div class="col-9">
-                @RenderBody()
-            </div>
-        </div>*@
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

@@ -108,3 +108,5 @@ body {
 .categories-block > a:last-child::after {
     content: "";
 }
+
+.list-title-container{}
