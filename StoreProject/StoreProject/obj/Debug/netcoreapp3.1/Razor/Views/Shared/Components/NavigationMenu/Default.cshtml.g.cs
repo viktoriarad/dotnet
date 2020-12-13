@@ -19,8 +19,15 @@ using StoreProject.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Viktoria\dotnet\StoreProject\StoreProject\Views\_ViewImports.cshtml"
+using StoreProject.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"47267e53af124b610e719895edbea1cee11cd318", @"/Views/Shared/Components/NavigationMenu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5d9f0011cb1bbfecdda6d8753f50093db066f77c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3f9a6473591d86c4bb45922d8666e135a9ef7e01", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_NavigationMenu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString(""), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -53,7 +60,7 @@ using StoreProject.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47267e53af124b610e719895edbea1cee11cd3184294", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47267e53af124b610e719895edbea1cee11cd3184490", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
 #nullable restore
 #line 7 "C:\Users\Viktoria\dotnet\StoreProject\StoreProject\Views\Shared\Components\NavigationMenu\Default.cshtml"
@@ -75,7 +82,7 @@ using StoreProject.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47267e53af124b610e719895edbea1cee11cd3185597", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47267e53af124b610e719895edbea1cee11cd3185793", async() => {
                 WriteLiteral("\r\n        <div class=\"categories-block text-center\">\r\n            <div class=\"categorie-block__title\">Products by categories:</div>\r\n");
 #nullable restore
 #line 12 "C:\Users\Viktoria\dotnet\StoreProject\StoreProject\Views\Shared\Components\NavigationMenu\Default.cshtml"
@@ -86,7 +93,7 @@ using StoreProject.Models;
 #line hidden
 #nullable disable
                 WriteLiteral("                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47267e53af124b610e719895edbea1cee11cd3186295", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47267e53af124b610e719895edbea1cee11cd3186491", async() => {
                     WriteLiteral("\r\n                    ");
 #nullable restore
 #line 18 "C:\Users\Viktoria\dotnet\StoreProject\StoreProject\Views\Shared\Components\NavigationMenu\Default.cshtml"

@@ -75,8 +75,6 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Store
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
-C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csproj.CoreCompileInputs.cache
-C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -152,3 +150,11 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\zh-Ha
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Edit.cshtml.g.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs

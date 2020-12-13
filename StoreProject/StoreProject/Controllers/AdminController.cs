@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StoreProject.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StoreProject.Controllers
 {
@@ -17,6 +18,7 @@ namespace StoreProject.Controllers
         {
             this.repository = repository;
         }
+        [Authorize]
         public ViewResult Index()
         {
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
