@@ -15,6 +15,8 @@ namespace StoreProject.Models
             this.ctx = ctx;
         }
 
+        public ProductModel this[int Id] => ctx.Products.FirstOrDefault(p => p.Id == Id);
+
         public IQueryable<ProductModel> Products => ctx.Products;
 
         public void SaveProduct(ProductModel product)
@@ -36,6 +38,36 @@ namespace StoreProject.Models
                 }
             }
             ctx.SaveChanges();
+        }
+
+        public ProductModel AddProduct(ProductModel product)
+        {
+            ctx.Products.Add(product);
+            ctx.SaveChanges();
+
+            return product;
+        }
+
+
+        public bool UpdateProduct(ProductModel product)
+        {
+            ProductModel dbEntry = ctx.Products
+                .FirstOrDefault(p => p.Id == product.Id);
+
+            if (dbEntry != null)
+            {
+                dbEntry.Name = product.Name;
+                dbEntry.Description = product.Description;
+                dbEntry.Price = product.Price;
+                dbEntry.Category = product.Category;
+            } else
+            {
+                return false;
+            }
+
+            ctx.SaveChanges();
+
+            return true;
         }
 
         public ProductModel DeleteProduct(int Id)
