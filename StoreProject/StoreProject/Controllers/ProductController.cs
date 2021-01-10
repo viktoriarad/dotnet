@@ -16,12 +16,14 @@ namespace StoreProject.Controllers
             this.repository = repository;
         }
 
-        public IActionResult GetList()
+        public ViewResult GetList()
         {
             return View(repository.Products);
         }
 
         public ViewResult List(string category) => View(repository.Products.Where(p => p.Category == category));
+
+        public ViewResult GetById(int Id) => View(repository.Products.Single(product => product.Id == Id));
 
         public IActionResult Index()
         {

@@ -18,7 +18,6 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Store
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.pdb
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\StoreProject.exe
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\StoreProject.deps.json
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\StoreProject.runtimeconfig.json
@@ -163,3 +162,4 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swash
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csproj.CoreCompileInputs.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\StoreProject.styles.css
