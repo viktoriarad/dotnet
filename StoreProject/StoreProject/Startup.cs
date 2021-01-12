@@ -35,6 +35,9 @@ namespace StoreProject
             services.AddControllers();
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+
+            services.AddControllersWithViews();
+            services.AddServerSideBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,6 +81,7 @@ namespace StoreProject
                     name: "Admin edit",
                     pattern: "{controller=Admin}/{action=Edit}/{id?}");
 
+                endpoints.MapBlazorHub();
             });
 
             app.UseEndpoints(routes =>

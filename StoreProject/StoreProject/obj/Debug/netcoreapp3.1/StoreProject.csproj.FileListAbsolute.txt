@@ -163,3 +163,11 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Store
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\StoreProject.styles.css
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.RazorComponent.input.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.RazorComponent.output.cache
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\RazorDeclaration\StoreProject.dll
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Calculator.razor.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Components\Calculator.razor.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Calculator.cshtml.g.cs
