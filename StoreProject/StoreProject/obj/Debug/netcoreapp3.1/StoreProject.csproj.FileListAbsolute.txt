@@ -171,3 +171,4 @@ C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Calculator.razor.g.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Components\Calculator.razor.g.cs
 C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Calculator.cshtml.g.cs
+C:\Users\Viktoria\dotnet\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Chat.cshtml.g.cs

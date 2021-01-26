@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using StoreProject.Models;
 using StoreProject.Middleware;
 using Microsoft.AspNetCore.Identity;
+using StoreProject.SignalRChat.Hubs;
 
 namespace StoreProject
 {
@@ -38,6 +39,7 @@ namespace StoreProject
 
             services.AddControllersWithViews();
             services.AddServerSideBlazor();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -82,6 +84,8 @@ namespace StoreProject
                     pattern: "{controller=Admin}/{action=Edit}/{id?}");
 
                 endpoints.MapBlazorHub();
+                endpoints.MapHub<ChatHub>("/chathub");
+                endpoints.MapHub<CounterUsersOnline>("/CounterUsersOnline");
             });
 
             app.UseEndpoints(routes =>
