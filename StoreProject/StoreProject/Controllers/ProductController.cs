@@ -25,10 +25,5 @@ namespace StoreProject.Controllers
 
         public ViewResult GetById(int Id) => View(repository.Products.Single(product => product.Id == Id));
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
     }
 }

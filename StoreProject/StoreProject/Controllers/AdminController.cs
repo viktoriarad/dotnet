@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace StoreProject.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private readonly IProductRepository repository;
@@ -18,7 +19,7 @@ namespace StoreProject.Controllers
         {
             this.repository = repository;
         }
-        [Authorize]
+
         public ViewResult Index()
         {
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
